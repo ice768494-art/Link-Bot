@@ -125,7 +125,7 @@ def home():
     return "Telegram Link Bot is running."
 
 
-@app.route("/api/webhook", methods=["POST"])
+@app.route("/api/telegram", methods=["POST"])
 def webhook():
 
     cleanup_expired()
